@@ -1,0 +1,93 @@
+.sidebar {
+  flex: 0.35;
+  background-color: white;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid lightgray;
+  padding: 10px;
+  background-color: rgb(15, 241, 181);
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+.sidebar__headerRight svg {
+  font-size: 22px;
+}
+
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(237, 229, 229);
+  height: 40px;
+  padding: 10px;
+}
+
+.sidebar__searchContainer {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.sidebar__searchContainer input {
+  border: 0;
+  margin-left: 10px;
+  outline: 0;
+  width: 100%;
+  border-radius: 20px;
+}
+.sidebar__searchContainer svg{
+  margin-left: 10px;
+}
+
+.sidebar__Chats {
+  display: flex;
+  background-color: rgb(240, 227, 227);
+  flex-direction: column;
+}
+
+.sidebar__chat {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(247, 242, 242);
+  padding: 10px;
+}
+
+.sidebar__chat:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.sidebar__chatInfo {
+  margin-left: 15px;
+}
+
+.sidebar__chatInfo h2 {
+  font-size: 16px;
+  color: black;
+}
+
+.sidebar__chatInfo p {
+  font-size: 12px;
+  color: black;
+}
+
+.sidebar__chat > h2 {
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sidebar__chat .MuiAvatar-circular {
+  width: 30px;
+  height: 30px;
+}
