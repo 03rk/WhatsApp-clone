@@ -66,7 +66,7 @@ const Chat = () => {
           <h3>{roomName}</h3>
           <p>
             {
-            new Date(messages[messages.length-1]?.timestamp?.seconds * 1000).toLocaleTimeString()
+            new Date(messages[messages.length-1]?.timestamp?.seconds * 1000).toLocaleString()
             }
           </p>
         </div>

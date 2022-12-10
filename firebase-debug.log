@@ -1,0 +1,93 @@
+[debug] [2022-12-10T03:56:00.039Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T03:56:00.041Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-10T03:56:00.041Z] CLI Version:   11.17.0
+[debug] [2022-12-10T03:56:00.041Z] Platform:      win32
+[debug] [2022-12-10T03:56:00.041Z] Node Version:  v16.18.1
+[debug] [2022-12-10T03:56:00.044Z] Time:          Sat Dec 10 2022 09:26:00 GMT+0530 (India Standard Time)
+[debug] [2022-12-10T03:56:00.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T03:56:00.048Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-10T03:56:00.124Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T03:56:00.124Z] > authorizing via signed-in user (rahulcivil777@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rahul\whatsapp-clone12
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-10T03:56:16.714Z] Using project from CLI flag: whatsapp-clone-0303
+[debug] [2022-12-10T03:56:16.715Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T03:56:16.716Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T03:56:16.716Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T03:56:28.677Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-12-10T03:56:28.677Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-12-10T03:56:28.750Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T03:56:33.768Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-12-10T03:57:03.654Z] ----------------------------------------------------------------------
+[debug] [2022-12-10T03:57:03.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-10T03:57:03.657Z] CLI Version:   11.17.0
+[debug] [2022-12-10T03:57:03.657Z] Platform:      win32
+[debug] [2022-12-10T03:57:03.657Z] Node Version:  v16.18.1
+[debug] [2022-12-10T03:57:03.658Z] Time:          Sat Dec 10 2022 09:27:03 GMT+0530 (India Standard Time)
+[debug] [2022-12-10T03:57:03.658Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-10T03:57:03.745Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-10T03:57:03.746Z] > authorizing via signed-in user (rahulcivil777@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\rahul\whatsapp-clone12
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-10T03:57:10.936Z] Using project from CLI flag: whatsapp-clone-0303
+[debug] [2022-12-10T03:57:10.938Z] > refreshing access token with scopes: []
+[debug] [2022-12-10T03:57:10.940Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-10T03:57:10.940Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-10T03:57:44.084Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-12-10T03:57:49.101Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\rahul\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
